@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: bisque;
+}
+
+.App {
+  background-color: azure;
+  border: 2px solid #3d3d3d;
+  margin: 50px 30px;
+  padding: 25px 15px;
+}
+
+.to-do-container ul li {
+  min-width: 170px;
+  max-width: fit-content;
+  overflow-wrap: break-word;
+  list-style-type: "👉 ";
+  cursor: pointer;
+}
+
+.trash {
+  cursor: pointer;
+}
+
+.addButton {
+  width: 150px;
+}
+
+.formComponents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; /* Align items vertically */
+}
+
+.formComponents input {
+  width: 50%; /* Adjust the width as needed */
+  margin: 5px; /* Add margin for spacing */
+}
